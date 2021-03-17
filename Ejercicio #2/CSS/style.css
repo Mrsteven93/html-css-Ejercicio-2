@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    border-top: 80px solid rgb(255, 102, 0);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.col:nth-child(1){
+    width: 25%;
+    background-image: url('https://www.todocircuito.com/ckfinder/userfiles/images/SuperDukeR1290.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.col:nth-child(2){
+    width: 25%;
+    background-image: url('https://motos.espirituracer.com/archivos/2019/06/ktm-duke-690-iv-3.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.col:nth-child(3){
+    width: 25%;
+    background-image: url('https://www.motofichas.com/images/phocagallery/KTM/rc-390-2017/01-ktm-rc-390-2017-perfil.jpg');
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 15px 15px
+}
+
+.col h2{
+    background-color: rgba(0,0,0,0.5);
+    color: azure;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(255, 74, 2);
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 230px;
+}
+
+.col button:hover{
+    background-color: azure;
+    color: rgb(255, 74, 2);
+    cursor: pointer;
+}
